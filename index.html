@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-card">
+        <img src="assets/BeautyPlus_20230804143739095_save.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+        <h2 data-testid="fullName">Jonathan Okang</h2>
+        <p class="job-title" data-testid="jobTitle">Digital Marketer, Front-End Developer</p>
+        <p class="bio" data-testid="shortBio">
+            Passionate about digital marketing and web development, 
+            I’m a frontend developer blending design with functionality. 
+            With a background in computer science and expertise in YouTube content marketing, 
+            I aim to craft engaging user experiences. 
+            Constantly learning, I’m mastering 
+            React, Vue, and CSS to build dynamic, responsive websites.  
+        </p>
+        <p class="location" data-testid="currentLocation"><b>Location:</b> Kogi, Nigeria</p>
+        <p class="email" data-testid="emailAddress">trucej4@gmail.com</p>
+        
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://linkedin.com/jonathan-okang" target="_blank">LinkedIn</a>
+            <a href="https://github.com/jojo-the-dev" target="_blank">GitHub</a>
+            <a href="https://twitter.com/jonathanxjojo" target="_blank">Twitter</a>
+        </div>
+        
+        <p class="utc-time" data-testid="currentTimeUTC">UTC Time: <span id="utc-time"></span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
